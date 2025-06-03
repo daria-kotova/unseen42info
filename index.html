@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Moved to style.css */
+    </style>
+    <script>
+        function myFunction() {
+            document.getElementById("demo").innerHTML = "Hello World!";
+        }
+        window.onload = function () {
+            //myFunction();
+        };
+    </script>
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <img src="https://picsum.photos/300/200?random=1" alt="Placeholder Image">
+        <a href="https://google.com/search?q=dasha"><img src="img/example.png" alt="Les pides de mon ami viencent"></a>
+        <h1>Welcome to My Web Page</h1>
+        <p>This is a simple HTML document with CSS and JavaScript.</p>
+        <p>Another normal paragraph.</p>
+        <p id="demo">See the demo <a href="https://google.com/?s=demo">here</a></p>
+        <button onclick="myFunction()">Click me</button>
+    </div>
+    <div>
+        <p>Another normal paragraph in a new div.</p>
+        <a name="asdf">Mon ancre est ici.</a>
+    </div>
+</body>
+
+</html>
